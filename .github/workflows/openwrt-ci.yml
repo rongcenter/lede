@@ -65,7 +65,7 @@ jobs:
           
       - name: install luci-theme-argon
         run: |
-          cd lede/package/lean  
+          cd package/lean  
           rm -rf luci-theme-argon  
           git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  
 
